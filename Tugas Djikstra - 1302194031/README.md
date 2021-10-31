@@ -4,7 +4,8 @@ Algoritma Dijkstra merupakan algoritma untuk menemukan jalur terpendek antar nod
 
 input:
 
-#int main() {
+```int main()
+{
 	/* Let us create the example graph discussed above */
 	int graph[V][V] = { { 0, 4, 0, 0, 0, 0, 0, 8, 0 },
 			    { 4, 0, 8, 0, 0, 0, 0, 11, 0 },
@@ -15,8 +16,6 @@ input:
 			    { 0, 0, 0, 0, 0, 2, 0, 1, 6 },
 			    { 8, 11, 0, 0, 0, 0, 1, 0, 7 },
 			    { 0, 0, 2, 0, 0, 0, 6, 7, 0 } };
-
 	dijkstra(graph, 0);
-
 	return 0;
-}
+}```

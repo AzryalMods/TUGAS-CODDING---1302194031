@@ -3,8 +3,8 @@
 Algoritma Dijkstra merupakan algoritma untuk menemukan jalur terpendek antar node dalam graph
 
 input:
-
-```int main()
+```
+int main()
 {
 	/* Let us create the example graph discussed above */
 	int graph[V][V] = { { 0, 4, 0, 0, 0, 0, 0, 8, 0 },
@@ -18,4 +18,18 @@ input:
 			    { 0, 0, 2, 0, 0, 0, 6, 7, 0 } };
 	dijkstra(graph, 0);
 	return 0;
-}```
+}
+```
+Output:
+```
+Vertex Distance from Source
+0 		 0
+1 		 4
+2 		 12
+3 		 19
+4 		 21
+5 		 11
+6 		 9
+7 		 8
+8 		 14
+```

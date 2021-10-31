@@ -1,6 +1,6 @@
 # TUGAS DJIKSTRA
 
-Algoritma Dijkstra merupakan algoritma untuk menemukan jalur terpendek antar node dalam graph
+Algoritme Dijkstra, (sesuai penemunya Edsger Dijkstra), adalah sebuah algoritma yang dipakai dalam memecahkan permasalahan jarak terpendek (shortest path problem) untuk sebuah graf berarah (directed graph).
 
 input:
 ```
